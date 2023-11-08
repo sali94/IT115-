@@ -1,0 +1,11 @@
+{
+    "name": "Hermoine Granger",
+    "age": 28,
+    "City": "East,London",
+    "Interests": [
+        "Reading",
+        "Painting",
+        "Hiking"
+    ],
+    "is student": true
+}
