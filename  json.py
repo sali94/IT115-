@@ -21,7 +21,7 @@ print('Data has been written to data.json')
 
 # Reading from the json file 
 with open('data.json','r') as json_file:
-#Load the 
+#Load the json data from file
  loaded_data = json.load(json_file)
 
  print('data loaded from data.json')
@@ -36,4 +36,4 @@ with open('data.json','r') as json_file:
 with open('data.json','w') as json_file:
     json.dump(loaded_data, json_file, indent=4)
 
-    print('modified data to the data.json file')
+print('modified data to the data.json file')
